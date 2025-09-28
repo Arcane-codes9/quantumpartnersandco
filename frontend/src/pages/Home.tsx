@@ -74,7 +74,7 @@ const Home = () => {
     {
       name: 'Sarah Johnson',
       role: 'Professional Trader',
-      content: 'QuantumPartnersandCo has transformed my trading experience. The platform is incredibly secure and user-friendly.',
+      content: 'Em24Investment has transformed my trading experience. The platform is incredibly secure and user-friendly.',
       rating: 5,
     },
     {
@@ -312,7 +312,7 @@ const Home = () => {
               Ready to Start Trading?
             </h2>
             <p className="text-xl text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-              Join thousands of successful traders on QuantumPartnersandCo platform today.
+              Join thousands of successful traders on Em24Investment platform today.
             </p>
             <Button variant="premium" size="xl" className="group">
               {t('hero.cta_primary')}

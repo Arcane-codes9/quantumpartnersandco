@@ -42,7 +42,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: getTranslation('contact.info.email_label', 'Email'),
-      content: getTranslation('contact.info.email', 'support@quantumpartnersandco.com'),
+      content: getTranslation('contact.info.email', 'support@em24investment.com'),
     },
     {
       icon: Clock,

@@ -18,12 +18,12 @@
   "hero": {
     "title": "Sicheres Krypto-Trading",
     "subtitle": "für die Zukunft",
-    "description": "QuantumPartnersandCo bietet professionelle Kryptowährungs-Trading-Dienste mit fortschrittlicher Sicherheit, Echtzeit-Analysen und KI-gestützten Trading-Bots.",
+    "description": "Em24Investment bietet professionelle Kryptowährungs-Trading-Dienste mit fortschrittlicher Sicherheit, Echtzeit-Analysen und KI-gestützten Trading-Bots.",
     "cta_primary": "Anmelden",
     "cta_secondary": "Registrieren"
   },
   "header": {
-    "logo": "QuantumPartnersandCo"
+    "logo": "Em24Investment"
   },
   "services": {
     "title": "Unsere Dienstleistungen",
@@ -60,7 +60,7 @@
     }
   },
   "about": {
-    "title": "Über QuantumPartnersandCo",
+    "title": "Über Em24Investment",
     "mission": "Unsere Mission ist es, sichere, professionelle Kryptowährungs-Trading-Dienste für Anleger weltweit bereitzustellen.",
     "vision": "Die führende vertrauenswürdige Plattform für Kryptowährungs-Trading und -Investitionen zu werden.",
     "values": {
@@ -102,7 +102,7 @@
       "phone_label": "Telefon",
       "phone": "+1 (555) 123-4567",
       "email_label": "E-Mail",
-      "email": "support@quantumpartnersandco.com",
+      "email": "support@em24investment.com",
       "hours_label": "Support-Zeiten",
       "hours": "24/7 Support verfügbar"
     },
@@ -113,10 +113,10 @@
   },
   "login": {
     "title": "Willkommen zurück",
-    "subtitle": "Melden Sie sich in Ihrem QuantumPartnersandCo-Konto an",
+    "subtitle": "Melden Sie sich in Ihrem Em24Investment-Konto an",
     "success": {
       "title": "Anmeldung erfolgreich",
-      "description": "Willkommen zurück bei QuantumPartnersandCo!"
+      "description": "Willkommen zurück bei Em24Investment!"
     },
     "form": {
       "email": {
@@ -158,10 +158,10 @@
   },
   "register": {
     "title": "Konto erstellen",
-    "subtitle": "Treten Sie QuantumPartnersandCo bei und beginnen Sie noch heute mit dem Trading",
+    "subtitle": "Treten Sie Em24Investment bei und beginnen Sie noch heute mit dem Trading",
     "success": {
       "title": "Registrierung erfolgreich",
-      "description": "Willkommen bei QuantumPartnersandCo! Bitte überprüfen Sie Ihre E-Mail, um Ihr Konto zu bestätigen."
+      "description": "Willkommen bei Em24Investment! Bitte überprüfen Sie Ihre E-Mail, um Ihr Konto zu bestätigen."
     },
     "error": {
       "passwords_mismatch": {
@@ -205,7 +205,7 @@
         "privacy": "Datenschutzrichtlinie zu"
       },
       "marketing": {
-        "agreement": "Ich stimme zu, Marketing-Kommunikation von QuantumPartnersandCo zu erhalten"
+        "agreement": "Ich stimme zu, Marketing-Kommunikation von Em24Investment zu erhalten"
       },
       "submit": "Konto erstellen",
       "or": "Oder fortfahren mit",
@@ -301,6 +301,6 @@
       "support": "Support",
       "legal": "Rechtliches"
     },
-    "copyright": "© 2024 QuantumPartnersandCo. Alle Rechte vorbehalten."
+    "copyright": "© 2024 Em24Investment. Alle Rechte vorbehalten."
   }
 }

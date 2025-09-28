@@ -355,7 +355,7 @@ const Register = () => {
                   {getTranslation('register.title', 'Create Account')}
                 </CardTitle>
                 <p className="text-muted-foreground">
-                  {getTranslation('register.subtitle', 'Join QuantumPartnersandCo and start trading today')}
+                  {getTranslation('register.subtitle', 'Join Em24Investment and start trading today')}
                 </p>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -568,7 +568,7 @@ const Register = () => {
                         disabled={isRegistering}
                       />
                       <Label htmlFor="marketing" className="text-sm leading-relaxed">
-                        {getTranslation('register.form.marketing.agreement', 'I agree to receive marketing communications from QuantumPartnersandCo')}
+                        {getTranslation('register.form.marketing.agreement', 'I agree to receive marketing communications from Em24Investment')}
                       </Label>
                     </div>
                   </div>

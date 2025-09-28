@@ -115,7 +115,7 @@ const Login = () => {
                   {getTranslation('login.title', 'Welcome Back')}
                 </CardTitle>
                 <p className="text-muted-foreground">
-                  {getTranslation('login.subtitle', 'Sign in to your QuantumPartnersandCo account')}
+                  {getTranslation('login.subtitle', 'Sign in to your Em24Investment account')}
                 </p>
               </CardHeader>
               <CardContent className="space-y-6">

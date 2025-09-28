@@ -25,7 +25,7 @@ const loadEnglishTranslations = () => {
       "hero": {
         "title": "Secure Crypto Trading",
         "subtitle": "for the Future",
-        "description": "QuantumPartnersandCo provides professional cryptocurrency trading services with advanced security, real-time analytics, and AI-powered trading bots.",
+        "description": "Em24Investment provides professional cryptocurrency trading services with advanced security, real-time analytics, and AI-powered trading bots.",
         "cta_primary": "Login",
         "cta_secondary": "Register"
       },
@@ -64,7 +64,7 @@ const loadEnglishTranslations = () => {
         }
       },
       "about": {
-        "title": "About QuantumPartnersandCo",
+        "title": "About Em24Investment",
         "mission": "Our mission is to provide secure, professional cryptocurrency trading services to investors worldwide.",
         "vision": "To become the leading trusted platform for cryptocurrency trading and investment.",
         "values": {
@@ -91,16 +91,16 @@ const loadEnglishTranslations = () => {
         "info": {
           "address": "123 Financial District, New York, NY 10004",
           "phone": "+1 (555) 123-4567",
-          "email": "support@quantumpartnersandco.com",
+          "email": "support@em24investment.com",
           "hours": "24/7 Support Available"
         }
       },
       "login": {
         "title": "Welcome Back",
-        "subtitle": "Sign in to your QuantumPartnersandCo account",
+        "subtitle": "Sign in to your Em24Investment account",
         "success": {
           "title": "Login Successful",
-          "description": "Welcome back to QuantumPartnersandCo!"
+          "description": "Welcome back to Em24Investment!"
         },
         "form": {
           "email": {
@@ -156,7 +156,7 @@ const loadEnglishTranslations = () => {
           "support": "Support",
           "legal": "Legal"
         },
-        "copyright": "© 2024 QuantumPartnersandCo. All rights reserved."
+        "copyright": "© 2024 Em24Investment. All rights reserved."
       }
     };
     

@@ -77,7 +77,7 @@ A full-featured Node.js backend API for a cryptocurrency trading platform built 
    SMTP_PORT=587
    SMTP_USER=your-email@gmail.com
    SMTP_PASS=your-app-password
-   EMAIL_FROM=QuantumPartnersandCos@gmail.com
+   EMAIL_FROM=em24investments@gmail.com
    
    # Security
    BCRYPT_ROUNDS=12
@@ -87,7 +87,7 @@ A full-featured Node.js backend API for a cryptocurrency trading platform built 
    RATE_LIMIT_MAX_REQUESTS=100
    
    # CORS Origins
-   ALLOWED_ORIGINS=http://localhost:8080,https://quantumpartnersandco.com
+   ALLOWED_ORIGINS=http://localhost:8080,https://em24investment.com
    ```
 
 5. **Start the server**
@@ -464,7 +464,7 @@ Authorization: Bearer <jwt-token>
 | `BCRYPT_ROUNDS` | Password hashing rounds | 12 |
 | `RATE_LIMIT_WINDOW_MS` | Rate limit window | 900000 (15 min) |
 | `RATE_LIMIT_MAX_REQUESTS` | Max requests per window | 100 |
-| `ALLOWED_ORIGINS` | CORS allowed origins | http://localhost:8080,https://quantumpartnersandco.com |
+| `ALLOWED_ORIGINS` | CORS allowed origins | http://localhost:8080,https://em24investment.com |
 
 ## 🚀 Deployment
 
@@ -580,7 +580,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support and questions:
 
-- Email: support@quantumpartnersandco.com
+- Email: support@em24investment.com
 - Documentation: [API Documentation](docs/api.md)
 - Issues: [GitHub Issues](https://github.com/your-repo/issues)
 
