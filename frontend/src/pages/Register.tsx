@@ -47,7 +47,6 @@ const Register = () => {
     }
   }, [isAuthenticated, user]);
 
-  console.log({registerError}); 
   // Handle registration errors
   useEffect(() => {
     if (registerError) {
