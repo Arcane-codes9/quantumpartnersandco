@@ -47,17 +47,17 @@ const Register = () => {
     }
   }, [isAuthenticated, user]);
 
+  console.log({registerError}); 
   // Handle registration errors
   useEffect(() => {
     if (registerError) {
       toast({
-        title: getTranslation('register.error.title', 'Registration Failed'),
+        title:registerError?.error || getTranslation('register.error.title', 'Registration Failed'),
         description: registerError.message || getTranslation('register.error.description', 'Failed to create account. Please try again.'),
         variant: 'destructive',
       });
     }
   }, [registerError]);
-
 
 
   const handleSubmit = (e: React.FormEvent) => {
