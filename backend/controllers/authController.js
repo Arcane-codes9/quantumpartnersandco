@@ -10,7 +10,7 @@ const crypto = require('crypto');
 const register = async (req, res) => {
   try {
     const { username, email, phone, nationality, fullname, password } = req.body;
-
+ console.log(req.body);
     // Check if user already exists
     const existingUser = await User.findByEmailOrUsername(email);
     if (existingUser) {
