@@ -43,7 +43,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-secondary rounded-lg flex items-center justify-center">
                 <span className="text-secondary-foreground font-bold text-lg">E</span>
               </div>
-              <span className="text-xl font-bold">Em24Investment</span>
+              <span className="text-xl font-bold">QuantumPartnersandCo</span>
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
               {t('footer.description')}

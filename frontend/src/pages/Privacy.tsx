@@ -170,7 +170,7 @@ const Privacy = () => {
                   <h2 className="text-2xl font-bold text-foreground">Introduction</h2>
                 </div>
                 <p className="text-muted-foreground leading-relaxed text-lg">
-                  Em24Investment ("we," "our," or "us") is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our cryptocurrency trading platform and related services. By using our services, you agree to the collection and use of information in accordance with this policy.
+                  QuantumPartnersandCo ("we," "our," or "us") is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our cryptocurrency trading platform and related services. By using our services, you agree to the collection and use of information in accordance with this policy.
                 </p>
               </CardContent>
             </Card>
@@ -252,7 +252,7 @@ const Privacy = () => {
                     <li>Rights related to automated decision-making</li>
                   </ul>
                   <p>
-                    To exercise any of these rights, please contact our Data Protection Officer at privacy@em24investment.com.
+                    To exercise any of these rights, please contact our Data Protection Officer at privacy@QuantumPartnersandCo.com.
                   </p>
                 </div>
               </CardContent>
@@ -281,7 +281,7 @@ const Privacy = () => {
                     If you have any questions about this Privacy Policy or our data practices, please contact us:
                   </p>
                   <div className="space-y-2 text-muted-foreground">
-                    <p><strong>Email:</strong> privacy@em24investment.com</p>
+                    <p><strong>Email:</strong> privacy@QuantumPartnersandCo.com</p>
                     <p><strong>Address:</strong> 123 Financial District, New York, NY 10004</p>
                     <p><strong>Phone:</strong> +1 (555) 123-4567</p>
                   </div>

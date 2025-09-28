@@ -100,7 +100,7 @@ const AccountActivated = () => {
                   {getTranslation('account_activated.title', 'Account Activated Successfully!')}
                 </CardTitle>
                 <p className="text-muted-foreground">
-                  {getTranslation('account_activated.subtitle', 'Welcome to Em24Investment! Your account is now active and ready for trading.')}
+                  {getTranslation('account_activated.subtitle', 'Welcome to QuantumPartnersandCo! Your account is now active and ready for trading.')}
                 </p>
               </CardHeader>
               <CardContent className="space-y-6">

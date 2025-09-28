@@ -21,7 +21,7 @@ const FAQ = () => {
       color: 'text-blue-600',
       questions: [
         {
-          question: 'How do I create an account on Em24Investment?',
+          question: 'How do I create an account on QuantumPartnersandCo?',
           answer: 'Creating an account is simple. Click "Sign Up" on our homepage, provide your email, create a strong password, and verify your email address. You\'ll then need to complete our KYC verification process to start trading.'
         },
         {
@@ -45,7 +45,7 @@ const FAQ = () => {
       color: 'text-green-600',
       questions: [
         {
-          question: 'What cryptocurrencies can I trade on Em24Investment?',
+          question: 'What cryptocurrencies can I trade on QuantumPartnersandCo?',
           answer: 'We support trading of major cryptocurrencies including Bitcoin (BTC), Ethereum (ETH), Cardano (ADA), Polkadot (DOT), Solana (SOL), and many more. Our full list is available on the trading platform.'
         },
         {
@@ -130,7 +130,7 @@ const FAQ = () => {
               How Can We <span className="text-secondary">Help You?</span>
             </h1>
             <p className="text-xl text-primary-foreground/80 max-w-3xl mx-auto leading-relaxed">
-              Find answers to the most commonly asked questions about Em24Investment
+              Find answers to the most commonly asked questions about QuantumPartnersandCo
             </p>
           </motion.div>
         </div>

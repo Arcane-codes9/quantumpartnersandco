@@ -53,7 +53,7 @@ const Header = () => {
                 <span className="text-primary-foreground font-bold text-lg">E</span>
               </div>
               <span className="text-xl font-bold text-foreground">
-                {getTranslation('header.logo', 'Em24Investment')}
+                {getTranslation('header.logo', 'QuantumPartnersandCo')}
               </span>
             </Link>
           </div>

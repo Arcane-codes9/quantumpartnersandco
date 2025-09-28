@@ -188,7 +188,7 @@ const Features = () => {
               Everything You Need
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Additional features that make Em24Investment the complete trading solution
+              Additional features that make QuantumPartnersandCo the complete trading solution
             </p>
           </motion.div>
 

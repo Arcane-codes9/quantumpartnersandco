@@ -118,7 +118,7 @@ const About = () => {
             >
               <img
                 src={teamPhoto}
-                alt="Em24Investment Team"
+                alt="QuantumPartnersandCo Team"
                 className="rounded-2xl shadow-elegant w-full h-auto"
               />
             </motion.div>
@@ -140,7 +140,7 @@ const About = () => {
               Our Core Values
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              The principles that guide everything we do at Em24Investment
+              The principles that guide everything we do at QuantumPartnersandCo
             </p>
           </motion.div>
 
@@ -229,7 +229,7 @@ const About = () => {
               Leadership Team
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Meet the experienced professionals leading Em24Investment forward
+              Meet the experienced professionals leading QuantumPartnersandCo forward
             </p>
           </motion.div>
 

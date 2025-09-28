@@ -18,12 +18,12 @@
   "hero": {
     "title": "Secure Crypto Trading",
     "subtitle": "for the Future",
-    "description": "Em24Investment provides professional cryptocurrency trading services with advanced security, real-time analytics, and AI-powered trading bots.",
+    "description": "QuantumPartnersandCo provides professional cryptocurrency trading services with advanced security, real-time analytics, and AI-powered trading bots.",
     "cta_primary": "Login",
     "cta_secondary": "Register"
   },
   "header": {
-    "logo": "Em24Investment"
+    "logo": "QuantumPartnersandCo"
   },
   "services": {
     "title": "Our Services",
@@ -60,7 +60,7 @@
     }
   },
   "about": {
-    "title": "About Em24Investment",
+    "title": "About QuantumPartnersandCo",
     "mission": "Our mission is to provide secure, professional cryptocurrency trading services to investors worldwide.",
     "vision": "To become the leading trusted platform for cryptocurrency trading and investment.",
     "values": {
@@ -102,7 +102,7 @@
       "phone_label": "Phone",
       "phone": "+1 (555) 123-4567",
       "email_label": "Email",
-      "email": "support@em24investment.com",
+      "email": "support@QuantumPartnersandCo.com",
       "hours_label": "Support Hours",
       "hours": "24/7 Support Available"
     },
@@ -113,10 +113,10 @@
   },
   "login": {
     "title": "Welcome Back",
-    "subtitle": "Sign in to your Em24Investment account",
+    "subtitle": "Sign in to your QuantumPartnersandCo account",
     "success": {
       "title": "Login Successful",
-      "description": "Welcome back to Em24Investment!"
+      "description": "Welcome back to QuantumPartnersandCo!"
     },
     "form": {
       "email": {
@@ -158,10 +158,10 @@
   },
   "register": {
     "title": "Create Account",
-    "subtitle": "Join Em24Investment and start trading today",
+    "subtitle": "Join QuantumPartnersandCo and start trading today",
     "success": {
       "title": "Registration Successful",
-      "description": "Welcome to Em24Investment! Please check your email to verify your account."
+      "description": "Welcome to QuantumPartnersandCo! Please check your email to verify your account."
     },
     "error": {
       "passwords_mismatch": {
@@ -205,7 +205,7 @@
         "privacy": "Privacy Policy"
       },
       "marketing": {
-        "agreement": "I agree to receive marketing communications from Em24Investment"
+        "agreement": "I agree to receive marketing communications from QuantumPartnersandCo"
       },
       "submit": "Create Account",
       "or": "Or continue with",
@@ -301,6 +301,6 @@
       "support": "Support",
       "legal": "Legal"
     },
-    "copyright": "© 2024 Em24Investment. All rights reserved."
+    "copyright": "© 2024 QuantumPartnersandCo. All rights reserved."
   }
 }
