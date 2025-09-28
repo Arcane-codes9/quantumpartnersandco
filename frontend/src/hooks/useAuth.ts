@@ -104,6 +104,7 @@ export const useAuth = () => {
   // Register mutation
   const registerMutation = useMutation({
     mutationFn: async (data: RegisterData): Promise<AuthResponse> => {
+      console.log('Registering user with data:', data);
       return apiRequest('/auth/register', {
         method: 'POST',
         body: JSON.stringify(data),

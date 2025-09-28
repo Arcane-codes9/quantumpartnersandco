@@ -51,7 +51,7 @@ const Register = () => {
   useEffect(() => {
     if (registerError) {
       toast({
-        title:registerError?.error || getTranslation('register.error.title', 'Registration Failed'),
+        title: getTranslation('register.error.title', 'Registration Failed'),
         description: registerError.message || getTranslation('register.error.description', 'Failed to create account. Please try again.'),
         variant: 'destructive',
       });
