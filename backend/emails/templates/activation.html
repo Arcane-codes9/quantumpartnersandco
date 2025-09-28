@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Activation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: linear-gradient(135deg, #17a2b8 0%, #138496 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 300;
+        }
+        .content {
+            padding: 40px 30px;
+        }
+        .activation-box {
+            background-color: #f8f9fa;
+            border: 2px solid #17a2b8;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        .activation-key {
+            font-size: 32px;
+            font-weight: bold;
+            color: #17a2b8;
+            letter-spacing: 3px;
+            font-family: monospace;
+            background-color: #e9ecef;
+            padding: 15px 25px;
+            border-radius: 5px;
+            margin: 20px 0;
+            display: inline-block;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+        .steps {
+            background-color: #e7f3ff;
+            border-left: 4px solid #17a2b8;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #17a2b8 0%, #138496 100%);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .security-note {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔑 Activate Your Account</h1>
+            <p>Welcome to {{companyName}} - Complete your registration</p>
+        </div>
+        
+        <div class="content">
+            <h2>Dear {{userName}},</h2>
+            
+            <p>Welcome to {{companyName}}! We're excited to have you join our community of investors. To complete your registration and start trading, please activate your account using the activation key below.</p>
+            
+            <div class="activation-box">
+                <h3>Your Activation Key</h3>
+                <div class="activation-key">{{activationKey}}</div>
+                <p><strong>This key will expire in 24 hours for security reasons.</strong></p>
+            </div>
+            
+            <div class="steps">
+                <h3>📋 How to Activate Your Account</h3>
+                <ol style="text-align: left;">
+                    <li>Copy the activation key above</li>
+                    <li>Go to your account dashboard</li>
+                    <li>Enter the activation key in the designated field</li>
+                    <li>Click "Activate Account"</li>
+                    <li>Start trading and investing!</li>
+                </ol>
+            </div>
+            
+            <div style="text-align: center; margin: 30px 0;">
+                <a href="https://quantumpartnersandco.com/account-activated?key={{activationKey}}&email={{email}}" class="cta-button">
+                    Activate My Account
+                </a>
+            </div>
+            
+            <div class="security-note">
+                <h4>🔒 Security Information</h4>
+                <ul>
+                    <li>Never share your activation key with anyone</li>
+                    <li>Our team will never ask for your activation key via email or phone</li>
+                    <li>If you didn't request this activation, please contact support immediately</li>
+                    <li>Your account will be locked after 3 failed activation attempts</li>
+                </ul>
+            </div>
+            
+            <div style="margin: 30px 0;">
+                <h3>🎯 What's Next After Activation?</h3>
+                <ul>
+                    <li><strong>Complete Your Profile:</strong> Add your trading preferences</li>
+                    <li><strong>Verify Your Identity:</strong> Upload required documents</li>
+                    <li><strong>Fund Your Account:</strong> Make your first deposit</li>
+                    <li><strong>Start Trading:</strong> Explore investment opportunities</li>
+                    <li><strong>Set Up Alerts:</strong> Get notified of market opportunities</li>
+                </ul>
+            </div>
+            
+            <div style="background-color: #d4edda; border-left: 4px solid #28a745; padding: 20px; margin: 20px 0;">
+                <h4>💡 Getting Started Tips</h4>
+                <ul>
+                    <li>Start with small investments to learn the platform</li>
+                    <li>Diversify your portfolio across different assets</li>
+                    <li>Set realistic investment goals</li>
+                    <li>Monitor market trends regularly</li>
+                    <li>Use our educational resources to improve your skills</li>
+                </ul>
+            </div>
+            
+            <p>If you have any questions or need assistance with the activation process, our support team is here to help 24/7.</p>
+            
+            <p>Welcome to the future of investing!<br>
+            <strong>The {{companyName}} Team</strong></p>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2024 {{companyName}}. All rights reserved.</p>
+            <p style="font-size: 12px; margin-top: 20px;">
+                This is an automated activation email. Please do not reply to this email.
+                For support, contact us at support@quantumpartnersandco.com
+            </p>
+        </div>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit Confirmation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 300;
+        }
+        .content {
+            padding: 40px 30px;
+        }
+        .deposit-details {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .wallet-info {
+            background-color: #e7f3ff;
+            border: 1px solid #b3d9ff;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+        .amount {
+            font-size: 24px;
+            font-weight: bold;
+            color: #28a745;
+        }
+        .wallet-id {
+            font-family: monospace;
+            background-color: #e9ecef;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 14px;
+            word-break: break-all;
+        }
+        .success-icon {
+            font-size: 48px;
+            color: #28a745;
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>✅ Deposit Confirmed</h1>
+            <p>Your funds have been successfully added to your account</p>
+        </div>
+        
+        <div class="content">
+            <div class="success-icon">✅</div>
+            
+            <h2>Dear {{userName}},</h2>
+            
+            <p>Great news! Your deposit has been successfully processed and your funds are now available in your EM24 Investments account.</p>
+            
+            <div class="deposit-details">
+                <h3>Deposit Details</h3>
+                <table style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <td style="padding: 8px 0; border-bottom: 1px solid #dee2e6;"><strong>Amount:</strong></td>
+                        <td style="padding: 8px 0; border-bottom: 1px solid #dee2e6;"><span class="amount">{{amount}} {{currency}}</span></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 8px 0; border-bottom: 1px solid #dee2e6;"><strong>Date:</strong></td>
+                        <td style="padding: 8px 0; border-bottom: 1px solid #dee2e6;">{{date}}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 8px 0; border-bottom: 1px solid #dee2e6;"><strong>Status:</strong></td>
+                        <td style="padding: 8px 0; border-bottom: 1px solid #dee2e6;"><span style="color: #28a745; font-weight: bold;">Confirmed</span></td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="wallet-info">
+                <h4>💳 Your Wallet Information</h4>
+                <p><strong>Wallet ID:</strong> <span class="wallet-id">{{walletId}}</span></p>
+                <p><strong>Current Balance:</strong> <span class="amount">{{amount}} {{currency}}</span></p>
+            </div>
+            
+            <div style="margin: 30px 0;">
+                <h3>🎯 What's Next?</h3>
+                <ul>
+                    <li><strong>Start Trading:</strong> Your funds are ready for investment</li>
+                    <li><strong>Explore Opportunities:</strong> Browse our investment options</li>
+                    <li><strong>Set Up Alerts:</strong> Get notified of market opportunities</li>
+                    <li><strong>Contact Support:</strong> Our team is here to help</li>
+                </ul>
+            </div>
+            
+            <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 20px; margin: 20px 0;">
+                <h4>💡 Investment Tips</h4>
+                <ul>
+                    <li>Diversify your portfolio across different assets</li>
+                    <li>Set realistic investment goals</li>
+                    <li>Monitor market trends regularly</li>
+                    <li>Consider long-term investment strategies</li>
+                </ul>
+            </div>
+            
+            <div style="text-align: center; margin: 30px 0;">
+                <a href="https://quantumpartnersandco.com/dashboard" style="display: inline-block; background: linear-gradient(135deg, #007bff 0%, #0056b3 100%); color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold;">
+                    Go to Dashboard
+                </a>
+            </div>
+            
+            <p>Thank you for choosing EM24 Investments. We're committed to helping you achieve your financial goals.</p>
+            
+            <p>Best regards,<br>
+            <strong>EM24 Investments Team</strong></p>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2024 EM24 Investments. All rights reserved.</p>
+            <p style="font-size: 12px; margin-top: 20px;">
+                This is an automated confirmation. Please do not reply to this email.
+                For support, contact us at support@quantumpartnersandco.com
+            </p>
+        </div>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Crypto Trading Dashboard Design System */
+
+/* CoinGecko Widget Styles */
+@layer components {
+  gecko-coin-price-static-headline-widget {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block !important;
+  }
+  
+  gecko-coin-price-static-headline-widget iframe {
+    width: 100% !important;
+    border: none !important;
+    border-radius: 0.5rem !important;
+  }
+}
+
+@layer base {
+  :root {
+    /* Light Mode - Minimal use since default is dark */
+    --background: 0 0% 98%;
+    --foreground: 0 0% 5%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 5%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 5%;
+    
+    --primary: 160 84% 39%;
+    --primary-foreground: 0 0% 98%;
+    
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 9%;
+    
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+    
+    --accent: 180 100% 50%;
+    --accent-foreground: 0 0% 5%;
+    
+    --success: 160 84% 39%;
+    --success-foreground: 0 0% 98%;
+    
+    --warning: 45 93% 58%;
+    --warning-foreground: 0 0% 5%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 0 0% 89%;
+    --input: 0 0% 89%;
+    --ring: 160 84% 39%;
+    
+    --radius: 0.75rem;
+    
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 0 0% 15%;
+    --sidebar-primary: 160 84% 39%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 0 0% 96%;
+    --sidebar-accent-foreground: 0 0% 9%;
+    --sidebar-border: 0 0% 89%;
+    --sidebar-ring: 160 84% 39%;
+  }
+
+  .dark {
+    /* Dark Mode - Primary theme */
+    --background: 0 0% 6%;
+    --foreground: 0 0% 98%;
+    
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 98%;
+    
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 98%;
+    
+    --primary: 160 84% 39%;
+    --primary-foreground: 0 0% 98%;
+    
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 98%;
+    
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 60%;
+    
+    --accent: 180 100% 50%;
+    --accent-foreground: 0 0% 6%;
+    
+    --success: 160 84% 39%;
+    --success-foreground: 0 0% 98%;
+    
+    --warning: 45 93% 58%;
+    --warning-foreground: 0 0% 6%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 0 0% 16%;
+    --input: 0 0% 16%;
+    --ring: 160 84% 39%;
+    
+    --sidebar-background: 0 0% 4%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 160 84% 39%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 0 0% 90%;
+    --sidebar-border: 0 0% 14%;
+    --sidebar-ring: 160 84% 39%;
+    
+    /* Trading specific colors */
+    --bull-green: 160 84% 39%;
+    --bear-red: 0 84% 60%;
+    --chart-grid: 0 0% 20%;
+    --price-positive: 160 84% 39%;
+    --price-negative: 0 84% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-inter antialiased;
+  }
+  
+  /* Crypto dashboard specific styles */
+  .crypto-card {
+    @apply bg-card border border-border rounded-xl p-6 shadow-sm backdrop-blur-sm;
+  }
+  
+  .price-up {
+    @apply text-success;
+  }
+  
+  .price-down {
+    @apply text-destructive;
+  }
+  
+  .market-data {
+    @apply font-mono text-sm;
+  }
+  
+  .trading-button {
+    @apply transition-all duration-200 hover:scale-105 active:scale-95;
+  }
+  
+  /* Glowing effects for interactive elements */
+  .glow-primary {
+    @apply shadow-lg shadow-primary/20;
+  }
+  
+  .glow-accent {
+    @apply shadow-lg shadow-accent/20;
+  }
+  
+  /* Chart container styles */
+  .chart-container {
+    @apply bg-card border border-border rounded-lg p-4;
+  }
+  
+  /* Scrollbar styling for dark theme */
+  .dark-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .dark-scrollbar::-webkit-scrollbar-track {
+    @apply bg-muted;
+  }
+  
+  .dark-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-border rounded-full;
+  }
+  
+  .dark-scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-ring;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

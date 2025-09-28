@@ -1,0 +1,306 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "features": "Características",
+    "contact": "Contacto",
+    "history": "Historial",
+    "faq": "Preguntas Frecuentes",
+    "privacy": "Política de Privacidad"
+  },
+  "language": {
+    "select": "Idioma",
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "de": "Deutsch"
+  },
+  "hero": {
+    "title": "Trading de Criptomonedas Seguro",
+    "subtitle": "para el Futuro",
+    "description": "QuantumPartnersandCo proporciona servicios profesionales de trading de criptomonedas con seguridad avanzada, análisis en tiempo real y bots de trading impulsados por IA.",
+    "cta_primary": "Iniciar Sesión",
+    "cta_secondary": "Registrarse"
+  },
+  "header": {
+    "logo": "QuantumPartnersandCo"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "crypto_trading": {
+      "title": "Trading de Criptomonedas",
+      "description": "Plataforma de trading avanzada con datos de mercado en tiempo real"
+    },
+    "secure_wallets": {
+      "title": "Billeteras Seguras",
+      "description": "Soluciones de almacenamiento en frío para máxima seguridad"
+    },
+    "daily_insights": {
+      "title": "Análisis Diarios",
+      "description": "Análisis de mercado profesional y señales de trading"
+    }
+  },
+  "features": {
+    "title": "Características Avanzadas",
+    "real_time": {
+      "title": "Trading en Tiempo Real",
+      "description": "Ejecuta operaciones instantáneamente con nuestra plataforma ultrarrápida"
+    },
+    "analytics": {
+      "title": "Análisis Avanzado",
+      "description": "Herramientas de análisis de mercado y gráficos completos"
+    },
+    "ai_bots": {
+      "title": "Bots de Trading con IA",
+      "description": "Trading automatizado con algoritmos inteligentes"
+    },
+    "cold_storage": {
+      "title": "Almacenamiento en Billetera Fría",
+      "description": "Máxima seguridad para tus activos digitales"
+    }
+  },
+  "about": {
+    "title": "Acerca de QuantumPartnersandCo",
+    "mission": "Nuestra misión es proporcionar servicios seguros y profesionales de trading de criptomonedas a inversores de todo el mundo.",
+    "vision": "Convertirnos en la plataforma de confianza líder para el trading e inversión en criptomonedas.",
+    "values": {
+      "security": "Seguridad Primero",
+      "transparency": "Transparencia Total",
+      "innovation": "Innovación Continua"
+    },
+    "stats": {
+      "clients": "Clientes Activos",
+      "volume": "Volumen de Trading",
+      "countries": "Países Atendidos",
+      "uptime": "Tiempo de Actividad de la Plataforma"
+    }
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "hero": {
+      "title": "Ponte en",
+      "title_highlight": "Contacto",
+      "description": "¿Tienes preguntas sobre nuestra plataforma? Nuestro equipo está aquí para ayudarte 24/7"
+    },
+    "success": {
+      "title": "Mensaje Enviado",
+      "description": "¡Gracias por tu mensaje. Te responderemos pronto!"
+    },
+    "form": {
+      "title": "Envíanos un Mensaje",
+      "name": "Nombre Completo",
+      "email": "Dirección de Email",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje"
+    },
+    "info": {
+      "title": "Información de Contacto",
+      "description": "Contáctanos a través de cualquiera de estos canales. ¡Estamos aquí para ayudarte!",
+      "address_label": "Dirección",
+      "address": "123 Distrito Financiero, Nueva York, NY 10004",
+      "phone_label": "Teléfono",
+      "phone": "+1 (555) 123-4567",
+      "email_label": "Email",
+      "email": "support@quantumpartnersandco.com",
+      "hours_label": "Horas de Soporte",
+      "hours": "Soporte 24/7 Disponible"
+    },
+    "map": {
+      "title": "Mapa Interactivo",
+      "subtitle": "Ver nuestra ubicación"
+    }
+  },
+  "login": {
+    "title": "Bienvenido de Vuelta",
+    "subtitle": "Inicia sesión en tu cuenta QuantumPartnersandCo",
+    "success": {
+      "title": "Inicio de Sesión Exitoso",
+      "description": "¡Bienvenido de vuelta a QuantumPartnersandCo!"
+    },
+    "form": {
+      "email": {
+        "label": "Dirección de Email",
+        "placeholder": "Ingresa tu email"
+      },
+      "password": {
+        "label": "Contraseña",
+        "placeholder": "Ingresa tu contraseña",
+        "show": "Mostrar contraseña",
+        "hide": "Ocultar contraseña"
+      },
+      "remember": {
+        "label": "Recordarme"
+      },
+      "forgot_password": "¿Olvidaste tu contraseña?",
+      "submit": "Iniciar Sesión",
+      "or": "O continuar con",
+      "no_account": "¿No tienes una cuenta?",
+      "sign_up": "Registrarse"
+    },
+    "social": {
+      "google": "Google",
+      "twitter": "Twitter"
+    },
+    "features": {
+      "badge": "Plataforma de Trading Segura",
+      "title": "Accede a Tu Panel de Control de Trading",
+      "description": "Inicia sesión para acceder a tu portafolio, ejecutar operaciones y monitorear tus inversiones con nuestra plataforma de trading avanzada.",
+      "security": {
+        "title": "Seguridad Avanzada",
+        "description": "Autenticación multifactor y encriptación"
+      },
+      "speed": {
+        "title": "Ultra Rápido",
+        "description": "Trading en tiempo real con ejecución instantánea"
+      }
+    }
+  },
+  "register": {
+    "title": "Crear Cuenta",
+    "subtitle": "Únete a QuantumPartnersandCo y comienza a operar hoy",
+    "success": {
+      "title": "Registro Exitoso",
+      "description": "¡Bienvenido a QuantumPartnersandCo! Por favor revisa tu email para verificar tu cuenta."
+    },
+    "error": {
+      "passwords_mismatch": {
+        "title": "Las contraseñas no coinciden",
+        "description": "Por favor asegúrate de que tus contraseñas coincidan."
+      }
+    },
+    "form": {
+      "first_name": {
+        "label": "Nombre",
+        "placeholder": "Nombre"
+      },
+      "last_name": {
+        "label": "Apellido",
+        "placeholder": "Apellido"
+      },
+      "email": {
+        "label": "Dirección de Email",
+        "placeholder": "Ingresa tu email"
+      },
+      "phone": {
+        "label": "Número de Teléfono",
+        "placeholder": "Ingresa tu número de teléfono"
+      },
+      "password": {
+        "label": "Contraseña",
+        "placeholder": "Crea una contraseña",
+        "show": "Mostrar contraseña",
+        "hide": "Ocultar contraseña"
+      },
+      "confirm_password": {
+        "label": "Confirmar Contraseña",
+        "placeholder": "Confirma tu contraseña",
+        "show": "Mostrar contraseña",
+        "hide": "Ocultar contraseña"
+      },
+      "terms": {
+        "agreement": "Acepto los",
+        "service": "Términos de Servicio",
+        "and": "y la",
+        "privacy": "Política de Privacidad"
+      },
+      "marketing": {
+        "agreement": "Acepto recibir comunicaciones de marketing de QuantumPartnersandCo"
+      },
+      "submit": "Crear Cuenta",
+      "or": "O continuar con",
+      "have_account": "¿Ya tienes una cuenta?",
+      "sign_in": "Iniciar sesión"
+    },
+    "social": {
+      "google": "Google",
+      "twitter": "Twitter"
+    },
+    "benefits": {
+      "badge": "Únete a Nuestra Plataforma",
+      "title": "Comienza Tu Viaje de Trading",
+      "description": "Crea tu cuenta y obtén acceso a herramientas de trading profesionales, análisis en tiempo real y trading seguro de criptomonedas.",
+      "security": {
+        "title": "Trading Seguro",
+        "description": "Seguridad bancaria con autenticación multifactor"
+      },
+      "speed": {
+        "title": "Ejecución Instantánea",
+        "description": "Trading en tiempo real con ejecución de órdenes ultrarrápida"
+      },
+      "analytics": {
+        "title": "Análisis Avanzado",
+        "description": "Herramientas profesionales e insights para mejor trading"
+      }
+    }
+  },
+  "forgot_password": {
+    "title": "¿Olvidaste tu Contraseña?",
+    "subtitle": "¡No te preocupes! Ingresa tu email y te enviaremos las instrucciones de restablecimiento.",
+    "success": {
+      "title": "Enlace de Restablecimiento Enviado",
+      "description": "Hemos enviado un enlace de restablecimiento de contraseña a tu dirección de email.",
+      "check_email": {
+        "title": "Revisa tu Email",
+        "description": "Hemos enviado un enlace de restablecimiento de contraseña a"
+      },
+      "next_steps": {
+        "title": "¿Qué sigue?",
+        "check_email": "Revisa tu bandeja de entrada",
+        "click_link": "Haz clic en el enlace de restablecimiento en el email",
+        "create_password": "Crea una nueva contraseña",
+        "sign_in": "Inicia sesión con tu nueva contraseña"
+      },
+      "back_to_login": "Volver al Inicio de Sesión",
+      "no_email": "¿No recibiste el email?",
+      "try_again": "Intentar de nuevo"
+    },
+    "form": {
+      "email": {
+        "label": "Dirección de Email",
+        "placeholder": "Ingresa tu dirección de email"
+      },
+      "submit": "Enviar Enlace de Restablecimiento",
+      "remember_password": "¿Recuerdas tu contraseña?",
+      "back_to_login": "Volver al inicio de sesión"
+    },
+    "features": {
+      "badge": "Recuperación de Contraseña",
+      "title": "Vuelve al Trading",
+      "description": "Te ayudaremos a recuperar el acceso a tu cuenta de forma rápida y segura. Nuestro proceso de restablecimiento de contraseña está diseñado para que vuelvas al trading en minutos.",
+      "security": {
+        "title": "Proceso de Restablecimiento Seguro",
+        "description": "Seguridad bancaria para la recuperación de contraseña"
+      },
+      "quick": {
+        "title": "Recuperación Rápida",
+        "description": "Vuelve al trading en minutos, no en horas"
+      }
+    },
+    "security_tips": {
+      "title": "Consejos de Seguridad",
+      "strong_password": "Usa una contraseña fuerte y única",
+      "two_factor": "Habilita la autenticación de dos factores",
+      "credentials": "Nunca compartas tus credenciales de inicio de sesión",
+      "email_secure": "Mantén tu dirección de email segura"
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentemente Hacemos",
+    "categories": {
+      "accounts": "Gestión de Cuenta",
+      "trading": "Trading",
+      "security": "Seguridad",
+      "withdrawals": "Retiros"
+    }
+  },
+  "footer": {
+    "description": "Plataforma profesional de trading de criptomonedas con seguridad y análisis avanzados.",
+    "links": {
+      "company": "Empresa",
+      "support": "Soporte",
+      "legal": "Legal"
+    },
+    "copyright": "© 2024 QuantumPartnersandCo. Todos los derechos reservados."
+  }
+}

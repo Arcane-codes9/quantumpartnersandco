@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Notification</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: linear-gradient(135deg, #6f42c1 0%, #5a32a3 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 300;
+        }
+        .content {
+            padding: 40px 30px;
+        }
+        .notification-box {
+            background-color: #f8f9fa;
+            border: 2px solid #6f42c1;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 30px 0;
+            text-align: left;
+        }
+        .notification-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #6f42c1;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 10px;
+        }
+        .notification-message {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+            font-size: 16px;
+            line-height: 1.8;
+        }
+        .admin-info {
+            background-color: #e7f3ff;
+            border-left: 4px solid #6f42c1;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #6f42c1 0%, #5a32a3 100%);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .timestamp {
+            color: #6c757d;
+            font-size: 14px;
+            font-style: italic;
+            text-align: right;
+            margin-top: 15px;
+        }
+        .priority-high {
+            background-color: #fff5f5;
+            border-left: 4px solid #dc3545;
+        }
+        .priority-medium {
+            background-color: #fffbf0;
+            border-left: 4px solid #ffc107;
+        }
+        .priority-low {
+            background-color: #f0fff4;
+            border-left: 4px solid #28a745;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📢 Admin Notification</h1>
+            <p>Important message from {{companyName}} administration</p>
+        </div>
+        
+        <div class="content">
+            <h2>Dear {{userName}},</h2>
+            
+            <p>You have received an important notification from the {{companyName}} administration team. Please review the details below.</p>
+            
+            <div class="notification-box">
+                <div class="notification-title">{{notificationTitle}}</div>
+                <div class="notification-message">
+                    {{notificationMessage}}
+                </div>
+                <div class="timestamp">
+                    Sent on {{currentDate}} at {{currentTime}}
+                </div>
+            </div>
+            
+            <div class="admin-info">
+                <h4>🔒 Important Information</h4>
+                <ul>
+                    <li>This is an official communication from {{companyName}} administration</li>
+                    <li>Please take appropriate action if required</li>
+                    <li>Keep this notification for your records</li>
+                    <li>Contact support if you have any questions</li>
+                </ul>
+            </div>
+            
+            <div style="margin: 30px 0;">
+                <h3>📋 What This Means</h3>
+                <p>This notification may contain important information about:</p>
+                <ul>
+                    <li><strong>Account Updates:</strong> Changes to your account status or settings</li>
+                    <li><strong>Security Alerts:</strong> Important security information</li>
+                    <li><strong>Platform Updates:</strong> New features or maintenance notices</li>
+                    <li><strong>Policy Changes:</strong> Updates to terms of service</li>
+                    <li><strong>General Announcements:</strong> Important company news</li>
+                </ul>
+            </div>
+            
+            <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 20px; margin: 20px 0;">
+                <h4>💡 Next Steps</h4>
+                <ul>
+                    <li>Read the notification carefully</li>
+                    <li>Take any required actions promptly</li>
+                    <li>Contact support if you need clarification</li>
+                    <li>Keep this information for future reference</li>
+                </ul>
+            </div>
+            
+            <div style="text-align: center; margin: 30px 0;">
+                <a href="https://quantumpartnersandco.com/dashboard" class="cta-button">
+                    Go to Dashboard
+                </a>
+            </div>
+            
+            <p>Thank you for your attention to this matter. We appreciate your continued trust in {{companyName}}.</p>
+            
+            <p>Best regards,<br>
+            <strong>The {{companyName}} Administration Team</strong></p>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2024 {{companyName}}. All rights reserved.</p>
+            <p style="font-size: 12px; margin-top: 20px;">
+                This is an automated administrative notification. Please do not reply to this email.
+                For support, contact us at support@quantumpartnersandco.com
+            </p>
+        </div>
+    </div>
+</body>
+</html>
