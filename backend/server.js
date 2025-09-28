@@ -22,20 +22,34 @@ app.use(helmet());
 
 // CORS configuration
 const allowedOrigins = process.env.ALLOWED_ORIGINS?.split(',') || [
-  'https://admin.quantumpartnersandco.com/', 'https://app.quantumpartnersandco.com/', 'https://quantumpartnersandco.com/'
+  'https://admin.quantumpartnersandco.com',
+  'https://app.quantumpartnersandco.com', 
+  'https://quantumpartnersandco.com',
+  'https://www.quantumpartnersandco.com',
+  'http://localhost:3000',
+  'http://localhost:5173',
+  'http://localhost:4173'
 ];
 
 console.log('🌐 Allowed origins:', allowedOrigins);
 
 app.use(cors({
   origin: function (origin, callback) {
+    console.log('🔍 CORS check - Origin:', origin);
+    console.log('🔍 CORS check - Allowed origins:', allowedOrigins);
+    
     // Allow requests with no origin (like mobile apps or curl requests)
-    if (!origin) return callback(null, true);
+    if (!origin) {
+      console.log('✅ CORS allowed - No origin (mobile/curl)');
+      return callback(null, true);
+    }
     
     if (allowedOrigins.includes(origin)) {
+      console.log('✅ CORS allowed - Origin matches');
       callback(null, true);
     } else {
       console.log('❌ CORS blocked origin:', origin);
+      console.log('❌ Expected one of:', allowedOrigins);
       callback(new Error('Not allowed by CORS'));
     }
   },
