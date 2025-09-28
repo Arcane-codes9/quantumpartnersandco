@@ -33,6 +33,25 @@ const allowedOrigins = process.env.ALLOWED_ORIGINS?.split(',') || [
 
 console.log('🌐 Allowed origins:', allowedOrigins);
 
+// Handle preflight requests FIRST - before CORS middleware
+app.options('*', (req, res) => {
+  const origin = req.headers.origin;
+  console.log('🔄 Preflight request from origin:', origin);
+  
+  if (allowedOrigins.includes(origin)) {
+    res.header('Access-Control-Allow-Origin', origin);
+    res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Requested-With');
+    res.header('Access-Control-Allow-Credentials', 'true');
+    res.header('Access-Control-Max-Age', '86400'); // 24 hours
+    console.log('✅ Preflight allowed for origin:', origin);
+    res.sendStatus(200);
+  } else {
+    console.log('❌ Preflight blocked for origin:', origin);
+    res.status(403).json({ error: 'CORS preflight not allowed' });
+  }
+});
+
 app.use(cors({
   origin: function (origin, callback) {
     console.log('🔍 CORS check - Origin:', origin);
@@ -80,20 +99,20 @@ if (process.env.NODE_ENV === 'development') {
   app.use(morgan('combined'));
 }
 
-// Handle preflight requests
-app.options('*', (req, res) => {
-  res.header('Access-Control-Allow-Origin', req.headers.origin || '*');
-  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
-  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Requested-With');
-  res.header('Access-Control-Allow-Credentials', 'true');
-  res.sendStatus(200);
-});
-
 // Health check endpoint
 app.get('/health', (req, res) => {
   res.status(200).json({
     status: 'OK',
     message: 'BitPro24 API is running',
+    timestamp: new Date().toISOString()
+  });
+});
+
+// CORS test endpoint
+app.get('/api/cors-test', (req, res) => {
+  res.status(200).json({
+    message: 'CORS is working!',
+    origin: req.headers.origin,
     timestamp: new Date().toISOString()
   });
 });
