@@ -21,7 +21,12 @@ const app = express();
 app.use(helmet());
 
 // CORS configuration
-const allowedOrigins = process.env.ALLOWED_ORIGINS?.split(',');
+const allowedOrigins = [
+  'http://localhost:3000',
+  'https://admin.quantumpartnersandco.com', 
+  'https://app.quantumpartnersandco.com', 
+  'https://quantumpartnersandco.com'
+];
 
 app.use(cors({
   origin: function (origin, callback) {
