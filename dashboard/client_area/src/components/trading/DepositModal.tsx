@@ -17,9 +17,9 @@ interface DepositModalProps {
 }
 
 const cryptoAssets = [
-  { symbol: 'BTC', name: 'Bitcoin', networks: [{ name: 'Bitcoin', address: 'bc1qyg0p2eu8h0ehve4ep80seyjv4vvcfzyhq3w8cq' }] },
-  { symbol: 'XRP', name: 'XRP', networks: [{ name: 'Tag: 3582075233', address: 'rBemW5214hnNbUVTxDGTyDxvQFnBexgftY' }] },
-  { symbol: 'USDT', name: 'Tether', networks: [{ name: 'TRC20', address: 'TLzm2Rw84UCAMXgm7bSBnoJDagqxxzjbgC' }] }
+  { symbol: 'BTC', name: 'Bitcoin', networks: [{ name: 'Bitcoin', address: '1Bveyb9LE9bqDahzk77KSfhKx2qNc4eQ14' }] },
+  { symbol: 'XRP', name: 'XRP', networks: [{ name: 'Tag: 3582075233', address: 'unavailable' }] },
+  { symbol: 'USDT', name: 'Tether', networks: [{ name: 'TRC20', address: 'unavailable' }] }
 ];
 
 export function DepositModal({ open, onOpenChange }: DepositModalProps) {

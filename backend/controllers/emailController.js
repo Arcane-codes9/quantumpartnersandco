@@ -26,7 +26,7 @@ const sendForgottenPasswordNotice = async (req, res) => {
 
     await sendEmail(
       to,
-      '🔑 Password Reset Request - EM24 Investments',
+      '🔑 Password Reset Request - QuantumPartnersandCo',
       html
     );
 

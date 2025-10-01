@@ -49,7 +49,7 @@ const userSchema = new mongoose.Schema({
   },
   isActivated: {
     type: Boolean,
-    default: false
+    default: true
   },
   isAdmin: {
     type: Boolean,

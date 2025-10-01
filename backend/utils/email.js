@@ -12,7 +12,7 @@ const sendForgottenPasswordEmail = async (to, data) => {
   });
   return sendEmail(
     to,
-    '🔑 Password Reset Request - EM24 Investments',
+    '🔑 Password Reset Request - QuantumPartnersandCo',
     html
   );
 };
@@ -81,13 +81,13 @@ const sendEmail = async (to, subject, html, attachments = []) => {
 const sendPromotionalEmail = async (to, data = {}) => {
   const html = await loadTemplate('promotional', {
     userName: data.userName || 'Valued Customer',
-    companyName: 'EM24 Investments',
+    companyName: 'QuantumPartnersandCo',
     ...data
   });
   
   return sendEmail(
     to,
-    '🚀 Exclusive Investment Opportunities with EM24 Investments',
+    '🚀 Exclusive Investment Opportunities with QuantumPartnersandCo',
     html
   );
 };
@@ -157,12 +157,12 @@ const sendActivationEmail = async (to, data) => {
     email: to,
     userName: data.userName,
     activationKey: data.activationKey,
-    companyName: 'EM24 Investments'
+    companyName: 'QUANTUM PARTNERS AND CO'
   });
   
   return sendEmail(
     to,
-    '🔑 Activate Your EM24 Investments Account',
+    '🔑 Activate Your QUANTUM PARTNERS AND CO Account',
     html
   );
 };
@@ -187,14 +187,14 @@ const sendAdminNotificationEmail = async (to, data) => {
     userName: data.userName,
     notificationTitle: data.title,
     notificationMessage: data.message,
-    companyName: 'EM24 Investments',
+    companyName: 'QuantumPartnersandCo',
     currentDate,
     currentTime
   });
   
   return sendEmail(
     to,
-    `📢 ${data.title} - EM24 Investments`,
+    `📢 ${data.title} - QuantumPartnersandCo`,
     html
   );
 };
